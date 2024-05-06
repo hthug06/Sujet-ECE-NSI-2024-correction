@@ -1,0 +1,34 @@
+ex1 : 1) compter la nombre de nœuds d'un arbre (sa taille) avec une fonction récursive
+      2) completer une fonction échange qui permet d'échanger des valeurs et completer un tri par selection
+
+ex2 : 1) Regarder si des mots correspondent entre eux
+      2) completer la fonction est_cyclique qui est un genre d'exo avec des graph
+
+ex3 : 1) Créer une fonction qui trouve le plus grand nombre dans une liste
+      2) Avec la classe Pile, regarder si un parenthésage est bon ou non (empiler et dépiler)
+
+ex4 : 1) Rechercher un nombre dans le tableau et renvoyer à quelle occurrence il apparait en dernier
+      2) Comparer quelles coordonnées sont les plus proches (code à trou pour calculer distance et comparer les coordonnées)
+
+ex5 : 1) Écrire une fonction qui recherche le plus grand nombre du tableau et sa dernière apparition dans ce tableau
+      2) Code à trou à compléter pour compter le nombre de points de rupture dans la liste
+
+ex6 : 1) Écrire une fonction qui vérifie si la liste est dans l'ordre croissant
+      2) Simulation d'élection, créer une fonction dépouille et candidat (utilisation de dico)
+
+ex7 : 1) Écrire une fonction qui transforme une liste de booléen en nombre (Binaire)
+      2) Code à trou de tri par insertion
+
+ex8 : 1) Écrire une fonction qui calcul le delta Δ (vu en spé maths)
+      2) Parcours infixe d'un arbre pour renvoyer le parcours de l'arbre effectuer (renvoie une chaîne de caractère)
+
+ex9 : 1) fonction pour compter le nombre de notes puis les remettre dans un tableau
+      2) code à trou de decimal tout binaire et inversement (en récursif)
+
+ex10: 1) calculer note avec coeff
+      2) afficher un cœur, 2 fonctions à trou à compléter pour agrandir ce cœur
+
+ex11: 1) compter le nombre de mot dans une phrase (jouer avec les ! et ?)
+      2) completer la classe noeud (⚠ parcourir les noeud tant qu'on le peut)
+
+ex12: 1)
