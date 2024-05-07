@@ -31,4 +31,23 @@ ex10: 1) calculer note avec coeff
 ex11: 1) compter le nombre de mot dans une phrase (jouer avec les ! et ?)
       2) completer la classe noeud (⚠ parcourir les noeud tant qu'on le peut)
 
-ex12: 1)
+ex12: 1) un tri par selection basique
+      2) completer le code a trou du jeu plus ou moins
+
+ex13: 1) créer une fonction qui recherche la place du nombre dans une liste
+      2) completer la fonction insere qui insere un element a la bonne place dans une liste
+
+ex14: 1) créer une fonction qui trouve le min et le max (je l'ai peut être fait un peu longue)
+      2) completer la classe Paquet_de_Carte (double for i in range)
+
+ex15: 1) Simple fonction de moyenne a faire
+      2) compléter la fonction qui met un nombre en binaire (⚠ return un str)
+
+ex16: 1) créer fonction qui met un nombre en binaire (copie du ex15 2) mais vous faites comme vous voulez)
+      2) completer la fonction échange (facile) puis la fonction tri_bulle
+
+ex17: 1) créer une fonction qui compte le nombre de fois ou un élément apparaît
+      2) fonction binaire (comme ex 15 et ex 16)
+
+ex18: 1) fonction multiplication mais que avec + et -
+      2) dicotomie (pas oublie m+1 et m-1)
