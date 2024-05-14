@@ -51,3 +51,9 @@ ex17: 1) créer une fonction qui compte le nombre de fois ou un élément appara
 
 ex18: 1) fonction multiplication mais que avec + et -
       2) dicotomie (pas oublie m+1 et m-1)
+
+ex19: 1) créer des fonctions en rapport avec les puissance mais sans **
+      2) completer un code qui renvoie si le mot est parfait (avec % et une variable qui vérifie mais pas de if)
+
+ex20: 1) créer fonction qui lance des dé et regarder si il y a un double 6
+      2) Modification d'image (beaucoup de logique)
