@@ -2,7 +2,6 @@ n0 = (None, 0, None)
 n3 = (None, 3, None)
 n2 = (None, 2, n3)
 abr1 = (n0, 1, n2)
-print(abr1)
 
 
 def insertion_abr(a, cle):
@@ -20,7 +19,9 @@ def insertion_abr(a, cle):
     else:
         return a
 
+assert insertion_abr(abr1, 4) ==((None,0,None),1,(None,2,(None,3,(None,4,None)))), "erreur au 4"
 assert insertion_abr(abr1, -5) == (((None,-5,None),0,None),1,(None,2,(None,3,None))), "problème au -5"
+assert insertion_abr(abr1 ,2) == ((None,0,None),1,(None,2,(None,3,None))), "erreur au 2"
 print("test OK")
 print(" ")
 

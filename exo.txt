@@ -64,5 +64,23 @@ ex21: 1) Faire algo de recherche de motif (vu en cours)
 ex22: 1) Créer une fonction qui répertorie les indices plus petits, égaux et plus grand
       2) Compléter une fonction moyenne (gestion de dico et de listes)
 
-ex23: 1) Créer un arbre (À REFAIRE + TARD LA J'AI LA FLEMME) (ou j'ai pas reussi)
+ex23: 1) créer une fonction qui insère une nouvelle branche dans un arbre (TRES DUR)
       2) Completer un algo glouton avec des rangements de boîtes (c'est français ça ?)
+
+ex24: 1) Parcours en profondeur (Fait avec chatGPT désolé...)
+      2) Pas compris
+
+ex25: 1) Créer fonction qui recherche l'occurence du plus petit nombre dans une liste
+      2) complétér une fonction qui sépare les 0 des 1 (~ dicotomie)
+
+ex26: 1) créer une fonction qui additionne des dictionnaires
+      2) Compléter une fonction qui compte le nombre de coups joué sur un jeu de plateau (utliser sum(liste) pour compter le nombre de true)
+
+ex27: 1) Créer une fonction qui regarde s'il existe de couple consécutif (tab[i] ==tab[i+1]-1)
+      2) Compléter une fonction qui simule une image binaire à colorier (intuitif)
+
+ex28: 1) Créer la fonction fibonacci (un classique et facile en récursif)
+      2) Compléter une fonction qui donne les meilleurs élèves du mois (gérer 2 list een même temps)
+
+ex29: 1) Créer une fonction de moyenne avec coeff
+      2) compléter les 2 fonctions qui pourront créer les lignes du triangle de pascal
