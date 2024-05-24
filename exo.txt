@@ -84,3 +84,24 @@ ex28: 1) Créer la fonction fibonacci (un classique et facile en récursif)
 
 ex29: 1) Créer une fonction de moyenne avec coeff
       2) compléter les 2 fonctions qui pourront créer les lignes du triangle de pascal
+
+ex30: 1) Tri fusion
+      2) Code cassé ?
+
+ex31: 1) Créer fonction mutliplication qu'avec des + et des - (comme ex 18)
+      2) Algo de dichotomie simple (c'est du cours)
+
+ex32: 1) Créer une fonction qui gère le binaire dans des listes de 0 et de 1
+      2) Compléter une fonction pour voir si un carré est semi-magique.
+
+ex33: 1) Fonction renverse (c'est de base dans python mais bon)
+      2) Trouver tous les premiers dans une liste
+
+ex34: 1) Créer une fonction qui compte le nombre de fois qu'une lettre revient dans un mot et l'ajoute dans un dictionnaire
+      2) Completer un tri fusion
+
+ex35: 1) Créer une fonction qui trouve l'année où la température est la + basse (gestion d 2 liste en même temps)
+      2) Compléter des fonctions pour voir sur le mot voulu est un palindrome
+
+ex36: 1) Créer une fonction qui compte le nombre de fois qu'une caractère revient dans une chaine de caractère
+      2) Compléter un algo glouton
