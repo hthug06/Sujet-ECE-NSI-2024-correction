@@ -1,3 +1,23 @@
+def recherche_indices_classement(elt: int, tab: list[int]):
+    plus_Petit = []
+    egal = []
+    plus_Grand = []
+    for i in range(len(tab)):
+        if tab[i] < elt:
+            plus_Petit.append(i)
+        elif tab[i] > elt:
+            plus_Grand.append(i)
+        else:
+            egal.append(i)
+
+    return plus_Petit, egal, plus_Grand
+
+
+print(recherche_indices_classement(3, [1, 3, 4, 2, 4, 6, 3, 0]))
+print(recherche_indices_classement(3, [1, 4, 2, 4, 6, 0]))
+print(recherche_indices_classement(3, [1, 1, 1, 1]))
+print(recherche_indices_classement(3, []))
+
 resultats = {
     'Dupont': {
         'DS1': [15.5, 4],
@@ -7,7 +27,7 @@ resultats = {
         'DS3': [14, 4]
     },
     'Durand': {
-        'DS1': [6 , 4],
+        'DS1': [6, 4],
         'DS2': [8, 4],
         'PROJET1': [9, 3],
         'IE1': [7, 2],
@@ -15,22 +35,25 @@ resultats = {
     }
 }
 
+
 def moyenne(nom, resultats):
-    '''Renvoie la moyenne de l'élève nom, selon le dictionnaire 
-    resultats. Si nom n'est pas dans le dictionnaire, 
+    '''Renvoie la moyenne de l'élève nom, selon le dictionnaire
+    resultats. Si nom n'est pas dans le dictionnaire,
     la fonction renvoie None.'''
-    if nom in ...: 
+    if nom in resultats:
         notes = resultats[nom]
-        if ...: # pas de notes 
+        if not notes:  # pas de notes
             return 0
-        total_points = ... 
-        total_coefficients = ... 
-        for ...  in notes.values(): 
+        total_points = 0
+        total_coefficients = 0
+        for valeurs in notes.values():
             note, coefficient = valeurs
-            total_points = total_points + ... * coefficient 
-            ... = ... + coefficient 
-        return round( ... / total_coefficients, 1 ) 
+            total_points = total_points + note * coefficient
+            total_coefficients = total_coefficients + coefficient  #??
+        return round(total_points / total_coefficients, 1)
     else:
         return None
 
 
+print(moyenne("Dupont", resultats))
+print(moyenne("Durand", resultats))

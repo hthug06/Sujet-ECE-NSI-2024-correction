@@ -49,11 +49,20 @@ ex16: 1) créer fonction qui met un nombre en binaire (copie du ex15 2) mais vou
 ex17: 1) créer une fonction qui compte le nombre de fois ou un élément apparaît
       2) fonction binaire (comme ex 15 et ex 16)
 
-ex18: 1) fonction multiplication mais que avec + et -
-      2) dicotomie (pas oublie m+1 et m-1)
+ex18: 1) fonction multiplication, mais qu'avec + et -
+      2) dichotomy (pas oublie m+1 et m-1)
 
-ex19: 1) créer des fonctions en rapport avec les puissance mais sans **
+ex19: 1) créer des fonctions en rapport avec les puissances mais sans **
       2) completer un code qui renvoie si le mot est parfait (avec % et une variable qui vérifie mais pas de if)
 
-ex20: 1) créer fonction qui lance des dé et regarder si il y a un double 6
+ex20: 1) créer fonction qui lance des dés et regarder s'il y a un double 6
       2) Modification d'image (beaucoup de logique)
+
+ex21: 1) Faire algo de recherche de motif (vu en cours)
+      2) Completer un algo de parcours en profondeur (CHIANT)
+
+ex22: 1) Créer une fonction qui répertorie les indices plus petits, égaux et plus grand
+      2) Compléter une fonction moyenne (gestion de dico et de listes)
+
+ex23: 1) Créer un arbre (À REFAIRE + TARD LA J'AI LA FLEMME) (ou j'ai pas reussi)
+      2) Completer un algo glouton avec des rangements de boîtes (c'est français ça ?)
