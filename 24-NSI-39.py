@@ -1,6 +1,21 @@
+def recherche(elt, tab):
+    occ = None
+    for i in range(len(tab)):
+        if elt == tab[i]:
+            occ = i
+    return occ
+
+
+print(recherche(1, [2, 3, 4]))
+print(recherche(1, [10, 12, 1, 56]))
+print(recherche(1, [1, 0, 42, 7]))
+print(recherche(1, [1, 50, 1]))
+print(recherche(1, [8, 1, 10, 1, 7, 1, 8]))
+
+
 class AdresseIP:
     def __init__(self, adresse):
-        self.adresse =... 
+        self.adresse = adresse
 
     def liste_octets(self):
         """renvoie une liste de nombres entiers,
@@ -12,15 +27,22 @@ class AdresseIP:
     def est_reservee(self):
         """renvoie True si l'adresse IP est une adresse
         réservée, False sinon"""
-        reservees = [ ... ] 
-        return ... 
+        reservees = ["192.168.0.0", "192.168.0.255"]
+        return self.adresse in reservees
 
     def adresse_suivante(self):
         """renvoie un objet de AdresseIP avec l'adresse
         IP qui suit l'adresse self si elle existe et None sinon"""
-        octets = ... 
-        if ... == 254: 
+        octets = self.adresse[10:]
+        print(octets)
+        if int(octets) == 254:
             return None
-        octet_nouveau = ... + ... 
-        return AdresseIP('192.168.0.' + ...) 
+        octet_nouveau = octets + 1
+        return AdresseIP('192.168.0.' + octet_nouveau)
 
+
+adresse1, adresse2, adresse3 = AdresseIP("192.168.0.1"), AdresseIP("192.168.0.2"), AdresseIP("192.168.0.0")
+print(adresse1.liste_octets())
+print(adresse1.est_reservee())
+print(adresse3.est_reservee())
+print(adresse2.adresse_suivante().adresse)

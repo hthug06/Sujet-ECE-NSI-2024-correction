@@ -28,32 +28,32 @@ ex9 : 1) fonction pour compter le nombre de notes puis les remettre dans un tabl
 ex10: 1) calculer note avec coeff
       2) afficher un cœur, 2 fonctions à trou à compléter pour agrandir ce cœur
 
-ex11: 1) compter le nombre de mot dans une phrase (jouer avec les ! et ?)
+ex11: 1) compter le nombre de mots dans une phrase (jouer avec les ! et ?)
       2) completer la classe noeud (⚠ parcourir les noeud tant qu'on le peut)
 
 ex12: 1) un tri par selection basique
-      2) completer le code a trou du jeu plus ou moins
+      2) completer le code à trou du jeu plus ou moins
 
 ex13: 1) créer une fonction qui recherche la place du nombre dans une liste
       2) completer la fonction insere qui insere un element a la bonne place dans une liste
 
-ex14: 1) créer une fonction qui trouve le min et le max (je l'ai peut être fait un peu longue)
+ex14: 1) créer une fonction qui trouve le min et le max (je l'ai peut-être fait un peu longue)
       2) completer la classe Paquet_de_Carte (double for i in range)
 
-ex15: 1) Simple fonction de moyenne a faire
+ex15: 1) Simple fonction de moyenne à faire
       2) compléter la fonction qui met un nombre en binaire (⚠ return un str)
 
-ex16: 1) créer fonction qui met un nombre en binaire (copie du ex15 2) mais vous faites comme vous voulez)
+ex16: 1) créer fonction qui met un nombre en binaire (copie de l'ex15 2) mais vous faites comme vous voulez)
       2) completer la fonction échange (facile) puis la fonction tri_bulle
 
-ex17: 1) créer une fonction qui compte le nombre de fois ou un élément apparaît
+ex17: 1) créer une fonction qui compte le nombre de fois où un élément apparaît
       2) fonction binaire (comme ex 15 et ex 16)
 
 ex18: 1) fonction multiplication, mais qu'avec + et -
       2) dichotomy (pas oublie m+1 et m-1)
 
-ex19: 1) créer des fonctions en rapport avec les puissances mais sans **
-      2) completer un code qui renvoie si le mot est parfait (avec % et une variable qui vérifie mais pas de if)
+ex19: 1) créer des fonctions en rapport avec les puissances, mais sans **
+      2) completer un code qui renvoie si le mot est parfait (avec % et une variable qui vérifie, mais pas de if)
 
 ex20: 1) créer fonction qui lance des dés et regarder s'il y a un double 6
       2) Modification d'image (beaucoup de logique)
@@ -71,16 +71,16 @@ ex24: 1) Parcours en profondeur (Fait avec chatGPT désolé...)
       2) Pas compris
 
 ex25: 1) Créer fonction qui recherche l'occurence du plus petit nombre dans une liste
-      2) complétér une fonction qui sépare les 0 des 1 (~ dicotomie)
+      2) complétér une fonction qui sépare les 0 des 1 (~ dichotomie)
 
 ex26: 1) créer une fonction qui additionne des dictionnaires
-      2) Compléter une fonction qui compte le nombre de coups joué sur un jeu de plateau (utliser sum(liste) pour compter le nombre de true)
+      2) Compléter une fonction qui compte le nombre de coups joué sur un jeu de plateau (utiliser sum(liste) pour compter le nombre de true)
 
 ex27: 1) Créer une fonction qui regarde s'il existe de couple consécutif (tab[i] ==tab[i+1]-1)
       2) Compléter une fonction qui simule une image binaire à colorier (intuitif)
 
 ex28: 1) Créer la fonction fibonacci (un classique et facile en récursif)
-      2) Compléter une fonction qui donne les meilleurs élèves du mois (gérer 2 list een même temps)
+      2) Compléter une fonction qui donne les meilleurs élèves du mois (gérer 2 liste en même temps)
 
 ex29: 1) Créer une fonction de moyenne avec coeff
       2) compléter les 2 fonctions qui pourront créer les lignes du triangle de pascal
@@ -88,7 +88,7 @@ ex29: 1) Créer une fonction de moyenne avec coeff
 ex30: 1) Tri fusion
       2) Code cassé ?
 
-ex31: 1) Créer fonction mutliplication qu'avec des + et des - (comme ex 18)
+ex31: 1) Créer fonction multiplication qu'avec des + et des - (comme ex 18)
       2) Algo de dichotomie simple (c'est du cours)
 
 ex32: 1) Créer une fonction qui gère le binaire dans des listes de 0 et de 1
@@ -103,5 +103,41 @@ ex34: 1) Créer une fonction qui compte le nombre de fois qu'une lettre revient 
 ex35: 1) Créer une fonction qui trouve l'année où la température est la + basse (gestion d 2 liste en même temps)
       2) Compléter des fonctions pour voir sur le mot voulu est un palindrome
 
-ex36: 1) Créer une fonction qui compte le nombre de fois qu'une caractère revient dans une chaine de caractère
+ex36: 1) Créer une fonction qui compte le nombre de fois qu'un caractère revient dans une chaine de caractère
       2) Compléter un algo glouton
+
+ex37: 1) Créer une fonction moyenne de base
+      2) compléter un algo de dichotomie
+
+ex38: 1) Créer une fonction ou on doit trouver le max d'une liste et les occurrences ou il apparait dans la liste
+      2) Compléter fonction renverse et est_postif pour trouver les nombre positif dans une pile
+
+ex39: 1) recherche de l'occurrence d'un nombre dans une liste
+      2) Compléter une fonction qui simule des adresses ip
+
+ex40: 1) créer une fonction qui simule une gestion d'enclos (gestion de dico)
+      2) Compléter une fonction RECURSIVE qui trouve un intrus dans une liste (CHIANT)
+
+ex41: 1) Créer 2 fonctions RECURSIVE qui compte la taille d'un arbre et l'autre la hauteur (⚠ parcourir les 2 cotés)
+      2) Compléter une fonction qui ajoute un nombre à un indice voulu dans une liste de nombre (nombre avant, le nombre, nombre après)
+
+ex42: 1) Fonction Moyenne qui renvoie un nombre à virgule (float(résultat))
+      2) Une dichotomie, mais genre de base
+
+ex43: 1) Créer une fonction qui regarde si une liste contient des doublons
+      2) completer des fonctions qui simulent un jeu de démineur
+
+ex44: 1) Créer une fonction qui énumère chaque occurrence d'une liste et met dans un dico en clé le nombre et en valeur chaque occurrence de ce nombre dans la liste
+      2) FAUT PAS TOMBER DESSUS
+
+ex45: 1) Créer une fonction qui compte le nombre occurrence de x dans une liste
+      2) Compléter un algo glouton
+
+ex46: 1) créer une fonction dichotomique qui trouve l'indice d'un nombre dans une liste de nombre triée
+      2) Compléter fonction qui convertie un texte avec le code césar et un décalage voulu
+
+ex47: 1) exo de gestion de dictionnaire
+      2) faire des opérations arithmétiques avec des listes et des piles
+
+ex48: 1) Créer une fonction qui trouve les voisins d'un élement d'un graphe ordonné
+      2) compléter fonction qui renvoie une chaine de caractère de la lecture de ce que l'on envoie a la fonction (bizarre à expliquer)
