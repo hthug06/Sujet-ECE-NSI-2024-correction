@@ -128,7 +128,7 @@ ex43: 1) Créer une fonction qui regarde si une liste contient des doublons
       2) completer des fonctions qui simulent un jeu de démineur
 
 ex44: 1) Créer une fonction qui énumère chaque occurrence d'une liste et met dans un dico en clé le nombre et en valeur chaque occurrence de ce nombre dans la liste
-      2) FAUT PAS TOMBER DESSUS
+      2) Completer une fonction de parcours infixe (SAVOIR Créer l'arbre)
 
 ex45: 1) Créer une fonction qui compte le nombre occurrence de x dans une liste
       2) Compléter un algo glouton

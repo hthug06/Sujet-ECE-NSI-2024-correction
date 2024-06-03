@@ -50,6 +50,12 @@ def insere(arbre, cle):
         return arbre
 
 
-arbre = Noeud(5)
+arbre = Noeud(5, Noeud(2, None, None), Noeud(7, None, None))
 print(parcours(arbre, []))
+insere(arbre, 1)
+insere(arbre, 4)
+insere(arbre, 6)
+insere(arbre, 8)
+print(parcours(arbre, []))
+
 #insere(noeud, 3)
