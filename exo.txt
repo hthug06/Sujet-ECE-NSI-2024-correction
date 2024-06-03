@@ -68,7 +68,7 @@ ex23: 1) créer une fonction qui insère une nouvelle branche dans un arbre (TRE
       2) Completer un algo glouton avec des rangements de boîtes (c'est français ça ?)
 
 ex24: 1) Parcours en profondeur (Fait avec chatGPT désolé...)
-      2) Pas compris
+      2) IMPOSSIBLE
 
 ex25: 1) Créer fonction qui recherche l'occurence du plus petit nombre dans une liste
       2) complétér une fonction qui sépare les 0 des 1 (~ dichotomie)
@@ -86,7 +86,7 @@ ex29: 1) Créer une fonction de moyenne avec coeff
       2) compléter les 2 fonctions qui pourront créer les lignes du triangle de pascal
 
 ex30: 1) Tri fusion
-      2) Code cassé ?
+      2) Compléter fonction ou on doit compter des nombres romains (elif +, else -)
 
 ex31: 1) Créer fonction multiplication qu'avec des + et des - (comme ex 18)
       2) Algo de dichotomie simple (c'est du cours)

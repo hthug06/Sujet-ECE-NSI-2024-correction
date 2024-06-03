@@ -26,8 +26,8 @@ def traduire_romain(nombre):
     elif romains[nombre[0]] >= romains[nombre[1]]:
         return romains[nombre[0]] + traduire_romain(nombre[1:])
     else:
-        return ...
+        return -romains[nombre[0]] + traduire_romain(nombre[1:])
 
 print(traduire_romain("XIV"))
-nombre = [1,2,3]
-print(nombre[:1])
+print(traduire_romain("CXLII"))
+print(traduire_romain("MMXXIV"))
